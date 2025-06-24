@@ -1,0 +1,38 @@
+export const users = [
+{
+    id: '10',
+    name: 'Mr. Kiran Reddy',
+    email: 'kiran.reddy@mvsr.edu.in',
+    password: 'admin123',
+    role: 'admin',
+    employeeId: 'MVSR-ADM-001',
+    department: 'Administration',
+    designation: 'Registrar',
+    phone: '+91 9876543230',
+    joinDate: '2012-04-01',
+  },
+{
+    id: '11',
+    name: 'Ms. Meera Krishnan',
+    email: 'meera.krishnan@mvsr.edu.in',
+    password: 'admin456',
+    role: 'admin',
+    employeeId: 'MVSR-ADM-002',
+    department: 'Academic Affairs',
+    designation: 'Dean of Academics',
+    phone: '+91 9876543231',
+    joinDate: '2014-06-15',
+  },
+{
+    id: '12',
+    name: 'Mr. Suresh Chandra',
+    email: 'suresh.chandra@mvsr.edu.in',
+    password: 'admin789',
+    role: 'admin',
+    employeeId: 'MVSR-ADM-003',
+    department: 'Finance',
+    designation: 'Finance Controller',
+    phone: '+91 9876543232',
+    joinDate: '2013-03-20',
+  }
+];
