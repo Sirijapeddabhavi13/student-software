@@ -4,26 +4,26 @@ export const users = [
   {
     id: 's1',
     name: 'Student One',
-    username: 'student1',
+    email: 'student1@example.com',
     password: 'pass1',
     role: 'student',
   },
   {
     id: 'f1',
     name: 'Faculty One',
-    username: 'faculty1',
+    email: 'faculty1@example.com',
     password: 'pass2',
     role: 'faculty',
   },
   {
     id: 'a1',
     name: 'Admin One',
-    username: 'admin1',
+    email: 'admin1@example.com',
     password: 'pass3',
     role: 'admin',
   },
 ];
 
-export function authenticateUser(username: string, password: string) {
-  return users.find(user => user.username === username && user.password === password);
+export function authenticateUser(email: string, password: string) {
+  return users.find(user => user.email === email && user.password === password);
 }
