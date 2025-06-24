@@ -1,0 +1,1 @@
+const CourseManagement = () => <div>Course Management</div>; export default CourseManagement;

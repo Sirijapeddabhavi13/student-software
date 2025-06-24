@@ -1,0 +1,1 @@
+const GradeManagement = () => <div>Grade Management</div>; export default GradeManagement;

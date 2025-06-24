@@ -1,0 +1,1 @@
+const AssignmentManagement = () => <div>Assignment Management</div>; export default AssignmentManagement;
